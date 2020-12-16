@@ -8,4 +8,4 @@ before_install:
   - docker build -t shashank/github-react -f Dockerfile.dev .
 
 script:
-  - docker run shashank/github-react-react npm run test -- --coverage
+  - docker run shashank/github-react npm run test -- --coverage
